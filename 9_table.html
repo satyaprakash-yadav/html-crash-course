@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Tag</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      html {
+        font-family: "Poppins", sans-serif;
+      }
+
+      table {
+        border: 1px solid #000;
+        text-align: center;
+        border-collapse: collapse;
+      }
+
+      tr,
+      th,
+      td {
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>username</th>
+          <th>password</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>shalini</td>
+            <td>test@123</td>
+        </tr>
+        <tr>
+            <td>divya</td>
+            <td>divya@123</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="2">count: 2</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

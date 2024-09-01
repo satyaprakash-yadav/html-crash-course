@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Tag</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      html {
+        font-family: "Poppins", sans-serif;
+      }
+
+      li, h1 {
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- unordered list -->
+
+    <ul style="list-style-type: square">
+      <li>python</li>
+      <li>java</li>
+      <li>javascript</li>
+    </ul>
+
+    <!-- ordered list -->
+    <ol type="1" start="1">
+      <li>Html</li>
+      <li>Css</li>
+      <li>React</li>
+    </ol>
+    <hr />
+
+    <!-- nested list -->
+     <h1>computer primary component</h1>
+
+     <ol>
+        <li>Input Device
+            <ol type="a">
+                <li>Direct Input
+                    <ul>
+                        <li>Scanner</li>
+                    </ul>
+                </li>
+                <li>Indirect Input
+                    <ul>
+                        <li>Keyboard</li>
+                        <li>Mouse</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <!-- WIP: Work In Progress -->
+        <li>Output Device</li>
+        <li>Processing Device</li>
+        <li>Storage Device</li>
+     </ol>
+  </body>
+</html>
