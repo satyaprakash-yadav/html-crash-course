@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Html form</h1>
+
+    <form>
+        <div>
+            <label for="Fullname">Fullname</label>
+            <input type="text" name="Fullname" id="Fullname">
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" required>
+        </div>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Password">
+        </div>
+        <div>
+            <label for="Gender">Gender</label>
+            <input type="radio" name="Gender1" id="male">male
+            <input type="radio" name="Gender1" id="male">female
+            <input type="radio" name="Gender1" id="male">other
+        </div>
+        <div>
+            <label for="Hobbies">Hobbies</label>
+            <input type="checkbox" name="checkbox1">Reading
+            <input type="checkbox" name="checkbox4">Watching Tv
+            <input type="checkbox" name="checkbox9">Travelling
+        </div>
+        <div>
+            <label for="Mobile no">Mobile no.</label>
+            <input type="number" value="0">
+        </div>
+        <div>
+            <label for="States">States</label>
+            <select name="States" id="States">
+                <option value="Mah">Mh</option>
+                <option value="Up">Up</option>
+                <option value="Hp">Hp</option>
+                <option value="Mp">Mp</option>
+                <option value="Bihar">Bihar</option>
+            </select>
+        </div>
+        <div>
+            <label for="Countries">Countries</label>
+            <input type="text" name="Countries" list="Countries">
+            <datalist id="Countries">
+                <option value="UK">Wingstan</option>
+                <option value="IN">IN</option>
+                <option value="CA">CA</option>
+                <option value="US">US</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="Feedback">Feedback</label>
+            <textarea name="Feedback" id="Feedback" cols="50" rows="4" placeholder="Write your Feedback about us"></textarea>
+        </div>
+       
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
